@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>글쓰기 게시판</title>
+        <link rel="stylesheet" href="./reset.css">
+        <style>
+            #big_box {
+                width: 1612px;
+                height: 930px;
+                background-color: beige;
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+                border-radius: 16px;
+            }
+            main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            h1 {
+                font-size: 70px;
+                margin: 70px 0 30px 100px;
+            }
+            #small_box1 {
+                border-width: 0 1px 0 0;
+                border-color: black;
+                border-style: solid;
+                width: 350px;
+                height: 60px;
+                position: relative;
+                box-sizing: border-box;
+            }
+            #big_box1 {
+                border-width: 1px 0 0 0;
+                border-color: black;
+                border-style: solid;
+                width: 1612px;
+                height: 800px;
+            }
+            h2 {
+                font-size: 30px;
+                color: black;
+                position: absolute;
+                bottom: 20px;
+                right: 30px;
+            }
+            #small_box2 {
+                width: 1262px;
+                height: 60px;
+
+            }
+            #two_box {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="big_box">
+                <h1>제목 입니다.</h1>
+                <div id="two_box">
+                    <div id="small_box1">
+                        <h2>
+                            2024. 05. 21.
+                        </h2>
+                    </div>
+                    <div id="small_box2"></div>
+                </div>
+                <div id="big_box1"></div>
+            </div>
+
+        </main>
+    </body>
+</html>
